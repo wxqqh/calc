@@ -10,7 +10,7 @@ PARSER=parser
 LEXER=lexer
 
 # 生成最终目标
-CFLAGS=-I$(GENDIR)
+CFLAGS=-Wall -ggdb3 -I$(GENDIR)
 TARET=./app
 
 # 因为这两个文件是通过创建出来的， make的时候还没有， 所以需要显式声明
